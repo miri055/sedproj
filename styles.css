@@ -1,0 +1,131 @@
+body {
+    @font-face {
+        font-family: 'Elephant';
+        src: url('fonts/elephant.woff2') format('woff2'),
+             url('fonts/elephant.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+h1 {
+    position: relative;
+    color: rgba(255, 255, 255, 0.5);
+    transform: translate(0,-10%); 
+    z-index: 1;
+    font-size: 15em;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
+    padding: 10px; 
+}
+
+h5 {
+    position: relative;
+    color: rgba(255, 255, 255, 0.5); 
+    transform: translate(0, -300%);
+    z-index: 1;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
+    padding: 10px; 
+}
+
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    transform: translate(0,-800%);
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #001aff;
+    font-size: 1.3em;
+    padding: 10px;
+    position: relative;
+    transition: color 0.3s ease, top 0.3s ease;
+}
+
+
+nav ul li a:hover {
+    color: #5773ff; 
+    top: -5px;
+}
+
+
+
+.content-box {
+    background-color: #000000bc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    margin: 20px auto;
+}
+
+.box-content {
+    margin-top: 10px;
+}
+
+.another-box {
+    background-color: rgba(254, 254, 254, 0.372);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    margin: 20px auto;
+}
+
+h3 {
+    color: #befbff;
+}
+
+p {
+    color: #ffffffd3; 
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.01em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+main {
+    padding: 50px;
+    position: relative;
+    transform: translate(0,-8%);
+    color: #ffffffd3;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.856);
+    font-size: 1.2em;
+}
